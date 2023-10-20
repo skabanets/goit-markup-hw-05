@@ -781,7 +781,8 @@ body {
   fill: transparent;
 }
 
-.modal-form-checkbox:checked + .check-mark-icon {
+.modal-form-checkbox:checked + .text-user-privicy > .custom-checkbox {
+  border: none;
   background-color: var(--active-checkbox-background);
   fill: var(--light-icon);
 }
