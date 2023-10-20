@@ -123,7 +123,6 @@ body {
   color: var(--secondary-text);
   border: 0;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .primary-button:hover,
@@ -245,7 +244,7 @@ body {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero-bg.jpg);
-  background-size: cover;
+  /* background-size: cover; */
   background-position: 50% 50%;
   background-repeat: no-repeat;
   max-width: 1440px;
@@ -588,20 +587,28 @@ body {
 
 .footer-form-input {
   width: 264px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   padding: 8px 16px;
   border-radius: 4px;
   color: #fff;
   border: 1px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: var(--dark-background);
+  background-color: transparent;
 }
 
 .footer-button {
+  min-width: 165px;
   padding: 8px 24px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+}
+
+.footer-icon-telegram {
+  margin-left: 16px;
 }
 
 /* ----- Modal-Window ----- */
@@ -670,7 +677,6 @@ body {
 
 .modal-form {
   font-size: 12px;
-  font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.48px;
   color: var(--primary-modal-text);
